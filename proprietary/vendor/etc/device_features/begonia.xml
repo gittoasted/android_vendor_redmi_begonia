@@ -222,10 +222,6 @@
         <item>uinput-fpc</item>
         <item>uinput-goodix</item>
     </string-array>
-    <!-- finger for alipay. default do not need config. -->
-    <string name="finger_alipay_ifaa_model">Xiaomi-begonia</string>
-    <!-- type of soter finger pay, config by owner of soter -->
-    <integer name="type_soter_finger_pay">1</integer>
     <!-- whether support double tap to wake up device -->
     <bool name="support_gesture_wakeup">true</bool>
     <!--Led light features-->
@@ -238,9 +234,6 @@
         <item>org.codeaurora.snapcam</item>
         <item>com.lctautotest.camera</item>
         <item>com.android.lightboxtest</item>
-        <item>com.xiaomi.cameratools</item>
-        <item>com.miui.cameratest</item>
-        <item>com.miui.cit</item>
     </string-array>
     <!--Add for the system data-app which could uninstall by user-->
     <string-array name="system_data_packagename_list">
@@ -352,7 +345,7 @@
     <!--whether surpport paper mode animation-->
     <bool name="support_papermode_animation">true</bool>
     <!-- support nfc -->
-    <bool name="support_nfc">true</bool>
+    <bool name="support_nfc">false</bool>
     <!-- NFC related -->
     <bool name="support_se_route">true</bool>
     <!--These region support face unlock-->
@@ -370,11 +363,6 @@
     <float name="device_head_sar">1.130</float>
     <!-- device body sar value -->
     <float name="device_body_sar">0.634</float>
-    <!-- support nfc -->
-    <bool name="support_nfc">true</bool>
-    <!-- NFC related -->
-    <bool name="support_se_route">true</bool>
-    <!-- 2DFA support -->
     <integer name="ifaa_2dfa_support">1</integer>
     <!-- whether support hangup while screen turnning off -->
     <bool name="support_hangup_while_screen_off">true</bool>
