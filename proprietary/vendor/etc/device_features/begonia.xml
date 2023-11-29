@@ -5,7 +5,7 @@
     <!--whether the device is xiaomi-->
     <bool name="is_xiaomi">false</bool>
     <!--whether the device is hongmi-->
-    <bool name="is_hongmi">true</bool>
+    <bool name="is_hongmi">false</bool>
     <!--whether the device is redmi-->
     <bool name="is_redmi">true</bool>
     <!--whether the device support alpha optimized-->
@@ -222,12 +222,10 @@
         <item>uinput-fpc</item>
         <item>uinput-goodix</item>
     </string-array>
-    <!-- finger for alipay. default do not need config. -->
-    <string name="finger_alipay_ifaa_model">Xiaomi-begonia</string>
     <!-- type of soter finger pay, config by owner of soter -->
-    <integer name="type_soter_finger_pay">1</integer>
+    <integer name="type_soter_finger_pay">0</integer>
     <!-- whether support double tap to wake up device -->
-    <bool name="support_gesture_wakeup">true</bool>
+    <bool name="support_gesture_wakeup">false</bool>
     <!--Led light features-->
     <bool name="support_led_light">true</bool>
     <bool name="support_led_color">false</bool>
@@ -238,9 +236,6 @@
         <item>org.codeaurora.snapcam</item>
         <item>com.lctautotest.camera</item>
         <item>com.android.lightboxtest</item>
-        <item>com.xiaomi.cameratools</item>
-        <item>com.miui.cameratest</item>
-        <item>com.miui.cit</item>
     </string-array>
     <!--Add for the system data-app which could uninstall by user-->
     <string-array name="system_data_packagename_list">
@@ -295,7 +290,7 @@
     <!--whether show basic info items-->
     <bool name="support_show_basic_items">true</bool>
     <!-- whether CN hardware can flash Global rom -->
-    <bool name="enable_flash_global">false</bool>
+    <bool name="enable_flash_global">true</bool>
     <bool name="support_new_silentmode">true</bool>
     <!--whether taking 18x9 ratio screen in camera-->
     <bool name="is_18x9_ratio_screen">false</bool>
@@ -352,9 +347,9 @@
     <!--whether surpport paper mode animation-->
     <bool name="support_papermode_animation">true</bool>
     <!-- support nfc -->
-    <bool name="support_nfc">true</bool>
+    <bool name="support_nfc">false</bool>
     <!-- NFC related -->
-    <bool name="support_se_route">true</bool>
+    <bool name="support_se_route">false</bool>
     <!--These region support face unlock-->
     <string-array name="support_face_unlock_region_global">
         <item>ALL</item>
@@ -364,16 +359,16 @@
         <item>CN</item>
     </string-array>
     <!-- whether support multi face input -->
-    <bool name="support_multi_face_input">true</bool>
-    <bool name="support_multi_face_input_global">true</bool>
+    <bool name="support_multi_face_input">false</bool>
+    <bool name="support_multi_face_input_global">false</bool>
     <!-- device head sar value -->
     <float name="device_head_sar">1.130</float>
     <!-- device body sar value -->
     <float name="device_body_sar">0.634</float>
     <!-- support nfc -->
-    <bool name="support_nfc">true</bool>
+    <bool name="support_nfc">false</bool>
     <!-- NFC related -->
-    <bool name="support_se_route">true</bool>
+    <bool name="support_se_route">false</bool>
     <!-- 2DFA support -->
     <integer name="ifaa_2dfa_support">1</integer>
     <!-- whether support hangup while screen turnning off -->
